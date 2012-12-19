@@ -62,7 +62,7 @@
 \newcommand{\ressubheading}[4]{
 \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
 		\textbf{#1} & #2 \\
-		\textit{#3} & \textit{#4} \\
+		#3 & #4 \\
 \end{tabular*}\vspace{-6pt}}
 %-----------------------------------------------------------
 
@@ -96,12 +96,12 @@
 
 %%%%%%%%%%%%%%%%%%%%%%
 \resheading{Education}
-	\begin{itemize}
+	\begin{description}
 		\item
-			\ressubheading{\href{http://www.ucla.edu}{University of California Los Angeles}}
+			\ressubheading{\href{http://www.ucla.edu}{University of California, Los Angeles}}
                           {Los Angeles, CA}
-                          {\href{http://cs.ucla.edu}{Bachelor's in Computer Science}; 
-                           \href{}{GPA:--}}{Sep. 2012 -- Present}
+                          {\href{http://cs.ucla.edu}{Bachelor of Science in Computer Science}; 
+                           \href{}{GPA:--}}{Expected June 2016}
 				{ \footnotesize
 				  \begin{itemize}
 					\resitem{Degree expected 2016}
@@ -117,41 +117,42 @@
                             \end{itemize}
                           }
 
-	\end{itemize} % End Education list
+	\end{description} % End Education list
 
 %%%%%%%%%%%%%%%%%%%%%%
 \resheading{Skills}
 	\begin{description}
-		\item[Technologies:] { \footnotesize C/C++, Python, Java,
-          Lisp, PHP, HTML, CSS, MSDOS, BASH Scripting,
-          \href{http://www.latex-project.org/}{%\LaTeX
-          LaTeX}, GIT, Bazaar, SVN, XML}
+		\item[Technologies:] { \footnotesize 
+        Strong: C/C++, Java, GIT \\ \hspace{47pt} 
+		Familiar: Python, Lisp, LaTeX \\[-2pt] \hspace{47pt}
+        Proficient: PHP, HTML, CSS, MSDOS, BASH Scripting,
+           Bazaar, SVN, XML}
 		
         \item[Computer and OS:] { \footnotesize Linux/Unix (Arch Linux), Windows, Mac OS X}
 		\item[Software:]{\footnotesize \href{http://netbeans.org}{NetBeans IDE};
           \href{http://eclipse.org}{Eclipse IDE};
-          \href{http://vim.org}{Vi/Vim};
+        \href{http://vim.org}{Vi/Vim};
           \href{http://gnu.org/s/emacs}{Emacs}}
         \item[Areas of Interest:] {\footnotesize Data Structures,
-          Algorithms, Artificial Intelligence, Operating Systems,
-          Embedded Systems}
+          Artificial Intelligence, Operating Systems,
+          Embedded Systems, Mobile Application Development}
         
 
 	\end{description} % End Skills list
 
 
 %%%%%%%%%%%%%%%%%%%%%%
-\resheading{Experience}
-	\begin{itemize}
+\resheading{Leadership Experience}
+	\begin{description}
 		\item 
-			\ressubheading{{FIRST Team 1160}}{San Marino, CA}{President, Head Programmer}{2008 -- 2012}
+			\ressubheading{{FIRST Robotics Team 1160, San Marino, CA}}{2008 -- 2012}{President, Head Programmer}{2011 -- 2012}
 				{ \footnotesize
 				\begin{itemize}
 					\resitem{Built, wired, and programmed a robot to
-                      play a new game each year for four years}
+                      play a new game each year for 4 years}
 					\resitem{Participated and strategized in several
                       regional competitions}
-					\resitem{Taught four team members how to program
+					\resitem{Taught 4 team members how to program
                       and wire future robots}
                     \resitem{Rebranded and created marketing materials
                       for the team including banners and a new
@@ -159,17 +160,7 @@
                     \resitem{Presented robot to community with media coverage}
 				\end{itemize}
 				}
-		\item			
-			\ressubheading{San Marino High School Marching Band}{San Marino, CA}{Clarinet Section Leader}{2008 -- 2012}
-				{ \footnotesize				
-				\begin{itemize}
-					\resitem{Led eighteen students in the clarinet
-                      section, with a focus on musicianship and
-                      marching, as part of a one hundred student band to
-                      create an award winning field show}
-				\end{itemize}
-				}
-	\end{itemize}  % End Experience list
+	\end{description}  % End Experience list
 
 %%%%%%%%%%%%%%%%%%%%%%
 \resheading{Projects}
@@ -177,8 +168,11 @@
     \begin{description}
       \item[Team 1160 Scouting App:]
                { \footnotesize An application that collects, processes
-                     and displays data at FIRST robotics competitions
-                     based on an XML configuration file
+                     and displays data on other robotics teams at
+                     FIRST robotics competitions. What information is
+                     collected is determined by an XML configuration
+                     file and can be weighted to emphasize one aspect
+                     over another.
                }
       \item[Team 1160 Robot Code:]
                { \footnotesize Ran team 1160's robot
@@ -186,14 +180,14 @@
                      season
                }
       \item[Blue 'n Gray Wordpress Theme:]
-               { \footnotesize A wordpress theme for my blog and my first
-                     foray into web design
+               { \footnotesize First wordpress theme for blog/personal website
                }
 	  \item[Colorburst Wordpress Theme:]
-               { \footnotesize My Second wordpress theme, which is currently in use on my website
+               { \footnotesize Second wordpress theme for
+                 blog/personal website. currently in use
                }
 		\item[Project Euler Solutions:]
-               { \footnotesize My solutions to several programming problems on the
+               { \footnotesize solutions to several programming problems on the
                      website projecteuler.net written in Common-LISP
                }
 		\item[Data Structure Implementations:]
@@ -261,5 +255,5 @@
 %http://www.squawkfox.com/2009/03/08/6-action-words-that-make-your-resume-rock/
 %
 %Other Resources: 
-%http://www.tvmier.com/Resume_Education.html
+p%http://www.tvmier.com/Resume_Education.html
 
