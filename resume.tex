@@ -61,8 +61,8 @@
           \textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
 \newcommand{\ressubheading}[4]{
   \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
-    \textbf{#1} & #2 \\
-    #3 & #4 \\
+    \textbf{#1} & #2 \hspace{-12mm} \\
+    #3 & #4 \hspace{-12mm} \\
   \end{tabular*}\vspace{-6pt}}
 %-----------------------------------------------------------
 
@@ -72,14 +72,14 @@
   \begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
     \textbf{\href{http://www.sakekasi.com/}{\LARGE Saketh Ram Kasibatla}} \\
     %       {\footnotesize Sunset Village C8-103} & 
-       	 %{\footnotesize \texttt{\colorbox{yellow} 
-%             {[web version:  address \& phone omitted]}}} & 
-                \href{http://www.sakekasi.com}{http://www.sakekasi.com} & 
+    %{\footnotesize \texttt{\colorbox{yellow} 
+    %             {[web version:  address \& phone omitted]}}} & 
+    \href{http://www.sakekasi.com}{http://www.sakekasi.com} & 
     \href{mailto:sakekasi@ucla.edu}{sakekasi@ucla.edu}\\
-                     {\footnotesize 825 W. Duarte Rd. Unit D} &
+         {\footnotesize 825 W. Duarte Rd. Unit D} &
          \href{http://www.github.com/sakekasi}{http://www.github.com/sakekasi}\\
-                          {\footnotesize Arcadia, CA 91007} \\
-                          {\footnotesize (626) 203-6279}
+              {\footnotesize Arcadia, CA 91007} \\
+              {\footnotesize (626) 203-6279}
   \end{tabular*}
   \\
   \vspace{0.1in}}
@@ -96,12 +96,13 @@
                 {Los Angeles, CA}
                 {\href{http://cs.ucla.edu}{Bachelor of Science in Computer Science}; 
                   \href{}{GPA: 3.9}}{Expected June 2016}
-                  {\footnotesize \begin{itemize}
-                   \item courses taken: CS 31, 32, 33, 35L \vspace{-1mm}
-                   \item planned courses: CS 111 (OS), 161 (AI), 131 (PL)
-                   \end{itemize}
-                  }
-%                  \vspace{1mm}
+                {\footnotesize \begin{itemize}
+                  \item \textbf{Courses Taken:} Intro to Programming (I and II), Intro to Computer Organization, Software Constr. Lab \vspace{-1mm}
+                  \item \textbf{Currently Enrolled:} Operating Systems, Programming Languages (Coursera) \vspace{-1mm}
+                  \item \textbf{Planned Courses:} Networking, Artificial Intelligence, Programming Languages
+                  \end{itemize}
+                }
+                %                  \vspace{1mm}
 
 \end{description} % End Education list
 
@@ -109,57 +110,55 @@
 \resheading{Skills}
 \begin{description}
 \item[Technologies:] { \footnotesize 
-  Strong: C/C++, Java, GIT, SSH, GDB, Valgrind, Make\\ \hspace{47pt} 
-  Familiar: Python, Lisp, LaTeX, x86, x86-64,
-  OpenMP, CUDA, HTML, CSS, Javascript, BASH, XML  \\
+  Strong: C/C++, Java, GIT, SSH, GDB, Make\\ \hspace{47pt} 
+  Familiar: Python, Lisp, x86, x86-64,
+   HTML, CSS, Javascript, BASH, XML, Valgrind  \\
   [-2pt] \hspace{47pt}
-  Proficient: PHP, MSDOS, Bazaar, SVN}
-  
+  Proficient: PHP, MSDOS, Subversion, OpenMP, CUDA}
 \item[Computer and OS:] { \footnotesize 
-  Linux/Unix (Arch Linux), Windows, Mac OS X}
-\item[Software:]{\footnotesize 
-  \href{http://netbeans.org}{NetBeans IDE};
-  \href{http://eclipse.org}{Eclipse IDE};
-  \href{http://vim.org}{Vi/Vim};
-  \href{http://gnu.org/s/emacs}{Emacs}}
+  Linux/Unix (Arch Linux, Ubuntu, OpenSuse)}
 \item[Areas of Interest:] {\footnotesize 
-  Operating Systems, Artificial Intelligence,  
-  Mobile Application Development, Networking}
+  Artificial Intelligence,  Mobile Application Development, Networking}
   
 \end{description} % End Skills list
 
 
 %%%%%%%%%%%%%%%%%%%%%%
+\resheading{Research Experience}
+\begin{description}
+\item
+  \ressubheading{Research under Professor Todd Millstein}
+  				{UCLA, Los Angeles, CA}{Research Assistant}{September 2013 -- Present}
+  				{\footnotesize
+  					\begin{itemize}
+  					\resitem{SPA: a tool to programmatically analyze protocol implementations for network interoperabilities}
+  					\resitem{Applying SPA to several implementations of BitTorrent.}
+  					\end{itemize}
+  				}
+\end{description}
+
 \resheading{Work Experience}
 \begin{description}
+
+
 \item	
-  \ressubheading{Qualcomm Inc.}{San Diego, CA}{Intern}{2013 -- Present}
+  \ressubheading{Qualcomm Inc.}{San Diego, CA}{Intern}{June 2013 -- August 2013}
                 { \footnotesize	
-                  \begin{itemize}
-                    \resitem{
-                      Worked in the SIM card software team to aid in development of a toolkit that interfaces with the sim card.
-                    }
-                    \resitem{
-                     Created generic library which parses both XML and C code in order to populate C structures.
-                     }
-                     \resitem{ Worked on improvements to large(100000+ lines) code base.}
+      	          \begin{itemize}
+                    \resitem{Worked in the SIM card software team to aid in development of a SIM card toolkit.}
+                    \resitem{Created generic library which parses both XML and C code in order to populate C structures.}
+                    \resitem{ Worked on improvements to large(100000+ lines) code base.}
                   \end{itemize}
                 }
 
               \item 
-                \ressubheading{{FIRST Robotics Team 1160, San Marino, CA}}
+	        \ressubheading{{FIRST Robotics Team 1160, San Marino, CA}}
                               {2008 -- 2012}{President, Head Programmer}{2011 -- 2012}
                               { \footnotesize
-                                \begin{itemize}
-                                  \resitem{Built, wired, and programmed a robot to
-                                    play a new game each year for 4 years}
-                                  \resitem{Participated and strategized in several
-                                    regional competitions}
-                                  \resitem{Taught 4 team members how to program
-                                    and wire future robots}
-                                  \resitem{Rebranded and created marketing materials
-                                    for the team including banners and a new
-                                    website}
+    	                        \begin{itemize}
+                                  \resitem{Built, wired, and programmed a robot to play a new game each year for 4 years}
+                                  \resitem{Taught 4 team members how to program and wire future robots}
+                                  \resitem{Rebranded and created marketing materials for the team including banners and a new website}
                                   \resitem{Presented robot to community with media coverage}
                                 \end{itemize}
                               }
@@ -169,37 +168,34 @@
 \resheading{Projects}
 
 \begin{description}
-\item[WIME:]
+\resitem[WIME:]
   { \footnotesize An app that allows a raspberry pi to share speakers over wifi. Won the first Qualcomm intern hackathon.}
-\item[Floodit with AI:]
+  \vspace{-3mm}
+  
+\resitem[Floodit with AI:]
   { \footnotesize A reimplementation of the popular
     iOS and android game Floodit with an AI to solve the game.}
-\item[Team 1160 Scouting App:]
-  { \footnotesize An application that collects, processes
-    and displays data on robotics teams at
-    FIRST robotics competitions. The information that is collected is determined by an XML configuration file.
-  }
-  \vspace{-1mm}
+  \vspace{-3mm}
   
-  \item[Conway's Game of Life:]
+\resitem[Conway's Game of Life:]
   { \footnotesize An implementation of Conway's Game of
     Life, a well known cellular automaton, written in
     C++ using sdl
   }
-\item[Team 1160 Robot Code:]
-  { \footnotesize Ran team 1160's robot
-    during the 2011 FIRST Robotics Competition
-    season
-  }
-\item[Project Euler Solutions:]
+  \vspace{-3mm}
+  
+\resitem[Project Euler Solutions:]
   { \footnotesize solutions to several programming problems on the
     website projecteuler.net written in Common-LISP, x86-64 assembly and haskell.
   }
-\item[Data Structure Implementations:]
+  \vspace{-3mm}
+  
+\resitem[Data Structure Implementations:]
   { \footnotesize Implementations of various data structures
     such as linked lists, hash maps, and trees in the
     C language
   }
+
 
 \end{description} %end projects
 
